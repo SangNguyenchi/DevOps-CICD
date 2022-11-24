@@ -5,7 +5,7 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 lint:
-	pylint --disable=R,C,E1120,W0613 hllo.py
+	pylint --disable=R,C,E1120,W0613 hello.py
 test1:
 	python -m pytest -vv test_adder.py 
 test2:
